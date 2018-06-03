@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var userNameLabel: UILabel!
     
-    var users:[Users] = []
+    var users = [Users]()
     
     var context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
 
@@ -37,12 +37,28 @@ class ViewController: UIViewController {
            
             if result.isEmpty {
                 
-                let newUser = NSEntityDescription.insertNewObject(forEntityName: "Users", into: context)
-               
-                newUser.setValue("Anish", forKey: "username")
-                newUser.setValue("54128", forKey: "password")
-                newUser.setValue("Anup", forKey: "username")
-                newUser.setValue("12345", forKey: "password")
+                // adding user 1
+                let usersLocal = Users(context: context)
+
+                usersLocal.username = "Anish"
+                usersLocal.password = "54128"
+
+                users.append(usersLocal)
+                
+                // adding user 2
+                 let usersLocal2 = Users(context: context)
+
+                usersLocal2.username = "Anup"
+                usersLocal2.password = "12345"
+
+                users.append(usersLocal)
+                
+//                let newUser = NSEntityDescription.insertNewObject(forEntityName: "Users", into: context)
+
+//                newUser.setValue("Anish", forKey: "username")
+//                newUser.setValue("54128", forKey: "password")
+//                newUser.setValue("Anup", forKey: "username")
+//                newUser.setValue("12345", forKey: "password")
                 
                 
                 do{
