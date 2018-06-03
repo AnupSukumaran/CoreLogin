@@ -13,6 +13,8 @@
 		5A19C1A720C2F554003DFAC1 /* CoreLogin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A19C1A520C2F554003DFAC1 /* CoreLogin.xcdatamodeld */; };
 		5A19C1A920C2F556003DFAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A19C1A820C2F556003DFAC1 /* Assets.xcassets */; };
 		5A19C1AC20C2F556003DFAC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A19C1AA20C2F556003DFAC1 /* LaunchScreen.storyboard */; };
+		5A19C1B420C2FEF0003DFAC1 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A19C1B320C2FEF0003DFAC1 /* LoginPageViewController.swift */; };
+		5A19C1B620C3007A003DFAC1 /* Globally.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A19C1B520C3007A003DFAC1 /* Globally.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5A19C1A820C2F556003DFAC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A19C1AB20C2F556003DFAC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A19C1AD20C2F556003DFAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A19C1B320C2FEF0003DFAC1 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		5A19C1B520C3007A003DFAC1 /* Globally.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globally.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				5A19C19E20C2F554003DFAC1 /* AppDelegate.swift */,
+				5A19C1B520C3007A003DFAC1 /* Globally.swift */,
 				5A19C1A020C2F554003DFAC1 /* ViewController.swift */,
+				5A19C1B320C2FEF0003DFAC1 /* LoginPageViewController.swift */,
 				5A19C1A220C2F554003DFAC1 /* Main.storyboard */,
 				5A19C1A820C2F556003DFAC1 /* Assets.xcassets */,
 				5A19C1AA20C2F556003DFAC1 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A19C1A720C2F554003DFAC1 /* CoreLogin.xcdatamodeld in Sources */,
+				5A19C1B620C3007A003DFAC1 /* Globally.swift in Sources */,
+				5A19C1B420C2FEF0003DFAC1 /* LoginPageViewController.swift in Sources */,
 				5A19C1A120C2F554003DFAC1 /* ViewController.swift in Sources */,
 				5A19C19F20C2F554003DFAC1 /* AppDelegate.swift in Sources */,
 			);
